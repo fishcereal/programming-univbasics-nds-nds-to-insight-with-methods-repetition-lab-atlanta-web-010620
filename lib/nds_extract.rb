@@ -35,9 +35,13 @@ def list_of_directors(source)
   array 
 end
 
-# p list_of_directors
+
 
 def total_gross(source)
+  
+  gross_for_director(source)
+  
+  
   # Write this implementation
   #
   # Should use methods:
