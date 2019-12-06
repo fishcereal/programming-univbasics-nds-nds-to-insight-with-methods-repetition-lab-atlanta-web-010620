@@ -9,8 +9,8 @@ def directors_totals(source)
     result[director[:name]] = gross_for_director(director)
     director_index += 1
   end
-  result
   p "this is the result #{result}"
+  result
 end
 
 
