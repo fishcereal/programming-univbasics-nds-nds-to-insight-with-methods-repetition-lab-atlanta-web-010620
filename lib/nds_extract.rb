@@ -35,6 +35,7 @@ def list_of_directors(source)
     array.push(source[i][:name])
     i+=1
   end 
+  p array 
   array 
 end
 
