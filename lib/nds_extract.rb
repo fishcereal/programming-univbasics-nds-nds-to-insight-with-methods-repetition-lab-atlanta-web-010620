@@ -12,7 +12,7 @@ def directors_totals(source)
   result
 end
 
-directors_totals(directors_database)
+# directors_totals(directors_database)
 
 
 def gross_for_director(d)
