@@ -13,9 +13,6 @@ def directors_totals(source)
   result
 end
 
-
-
-
 def gross_for_director(d)
   total = 0
   index = 0
@@ -40,12 +37,11 @@ def list_of_directors(source)
   array 
 end
 
-
-
 def total_gross(source)
   grand_total = 0 
   counter = 0 
   list = list_of_directors(source)
+  p "This is the list #{list}" 
   while counter < source.length do 
     grand_total += directors_totals(list[counter])
     counter+=1 
