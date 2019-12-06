@@ -39,7 +39,7 @@ end
 
 def total_gross(source)
   
-  gross_for_director(source)
+  gross_for_director(list_of_directors(source))
   
   
   # Write this implementation
