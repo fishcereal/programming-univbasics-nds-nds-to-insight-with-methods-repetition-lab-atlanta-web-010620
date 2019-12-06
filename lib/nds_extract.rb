@@ -40,7 +40,13 @@ end
 def total_gross(source)
   grand_total = 0 
   array = list_of_directors(source) 
-  p array[0] 
+  directors_totals_hash = directors_totals(source)
+  counter = 0 
+  while counter < source.length do 
+    grand_total += directors_totals_hash[array[counter]]
+    
+    counter+=1 
+  end 
 end
 
 
