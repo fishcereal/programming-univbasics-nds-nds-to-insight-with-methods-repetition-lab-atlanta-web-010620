@@ -12,6 +12,9 @@ def directors_totals(source)
   result
 end
 
+directors_totals(directors_database)
+
+
 def gross_for_director(d)
   total = 0
   index = 0
@@ -38,6 +41,8 @@ end
 
 
 def total_gross(source)
+  grand_total = 0 
+  
   
   gross_for_director(list_of_directors(source))
   
