@@ -22,7 +22,7 @@ def gross_for_director(d)
     index += 1
   end
 
-  total
+  total 
 end
 
 def list_of_directors(source)
@@ -33,7 +33,7 @@ def list_of_directors(source)
     array.push(source[i][:name])
     i+=1
   end 
-  p array 
+  # p array 
   array 
 end
 
