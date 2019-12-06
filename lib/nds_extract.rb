@@ -26,6 +26,7 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  p source
 end
 
 # p list_of_directors
