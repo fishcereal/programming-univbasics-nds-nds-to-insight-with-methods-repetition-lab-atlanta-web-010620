@@ -42,9 +42,12 @@ end
 
 def total_gross(source)
   grand_total = 0 
-  
-  
-  directors_totals(list_of_directors)
+  counter = 0 
+  while counter < source.length do 
+    grand_total += directors_totals(list_of_directors)
+    counter+=1 
+  end 
+  grand_total
   
   
   # Write this implementation
