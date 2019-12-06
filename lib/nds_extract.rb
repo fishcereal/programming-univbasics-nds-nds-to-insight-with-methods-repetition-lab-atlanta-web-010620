@@ -28,7 +28,7 @@ def list_of_directors(source)
   # Write this implementation
 end
 
-p list_of_directors
+# p list_of_directors
 
 def total_gross(source)
   # Write this implementation
